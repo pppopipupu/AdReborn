@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "open_craft": {
+      "conditions": {
+        "qwertyuiop": true
+      },
+      "trigger": "adreborn:player_use_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.adreborn.open_crafttable.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.adreborn.open_crafttable"
+    }
+  },
+  "requirements": [
+    [
+      "open_craft"
+    ]
+  ]
+}
