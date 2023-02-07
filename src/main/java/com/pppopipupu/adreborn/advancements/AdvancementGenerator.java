@@ -2,23 +2,13 @@ package com.pppopipupu.adreborn.advancements;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricAdvancementProvider;
-import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.advancement.Advancement;
-import net.minecraft.advancement.AdvancementCriterion;
 import net.minecraft.advancement.AdvancementFrame;
-import net.minecraft.advancement.criterion.ConsumeItemCriterion;
-import net.minecraft.advancement.criterion.CriterionConditions;
 import net.minecraft.advancement.criterion.InventoryChangedCriterion;
-import net.minecraft.advancement.criterion.PlayerInteractedWithEntityCriterion;
-import net.minecraft.client.realms.dto.PlayerActivities;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.predicate.NumberRange;
-
 import net.minecraft.predicate.item.ItemPredicate;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableTextContent;
 
 import java.util.function.Consumer;
 

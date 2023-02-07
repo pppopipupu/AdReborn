@@ -3,8 +3,6 @@ package com.pppopipupu.adreborn.advancements;
 import com.google.gson.JsonObject;
 import net.minecraft.advancement.criterion.AbstractCriterion;
 import net.minecraft.advancement.criterion.AbstractCriterionConditions;
-import net.minecraft.item.Items;
-import net.minecraft.predicate.BlockPredicate;
 import net.minecraft.predicate.entity.AdvancementEntityPredicateDeserializer;
 import net.minecraft.predicate.entity.AdvancementEntityPredicateSerializer;
 import net.minecraft.predicate.entity.EntityPredicate;

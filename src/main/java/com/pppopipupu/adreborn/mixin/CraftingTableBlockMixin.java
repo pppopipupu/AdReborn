@@ -1,14 +1,9 @@
 package com.pppopipupu.adreborn.mixin;
 
 import com.pppopipupu.adreborn.advancements.TriggerInit;
-import com.pppopipupu.adreborn.advancements.UseCraftTableTrigger;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CraftingTableBlock;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;

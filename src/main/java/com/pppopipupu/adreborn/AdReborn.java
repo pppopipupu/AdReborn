@@ -1,13 +1,7 @@
 package com.pppopipupu.adreborn;
 
 import com.pppopipupu.adreborn.advancements.TriggerInit;
-import com.pppopipupu.adreborn.advancements.UseCraftTableTrigger;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.event.player.UseBlockCallback;
-import net.minecraft.advancement.criterion.Criteria;
-import net.minecraft.advancement.criterion.Criterion;
-import net.minecraft.advancement.criterion.CriterionConditions;
-import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
