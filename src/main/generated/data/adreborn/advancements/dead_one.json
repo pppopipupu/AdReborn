@@ -1,0 +1,37 @@
+{
+  "parent": "adreborn:open_crafttble",
+  "criteria": {
+    "dead_one": {
+      "conditions": {
+        "jjsjjsjjsjj": true
+      },
+      "trigger": "adreborn:player_dead"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.adreborn.dead.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.adreborn.dead"
+    }
+  },
+  "requirements": [
+    [
+      "dead_one"
+    ]
+  ],
+  "rewards": {
+    "experience": 33,
+    "loot": [
+      "minecraft:iron_chestplate"
+    ]
+  }
+}
